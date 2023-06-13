@@ -12,7 +12,7 @@ linkedin_image =r"C:\Users\User\Desktop\digital_cv\assets\linkedin.png"
 toml_file = r"C:\Users\User\Desktop\digital_cv\.streamlit\config.toml"
 
 #---GENERAL SETTINGS---
-title = "Digital CV | Anisa Mahomed Yusuf" ":ZA:" 
+title = "Digital CV | Anisa Mahomed Yusuf" "ZA"
 icon = "🙌"
 Name= "Anisa Mahomed Yusuf"
 Description="""
@@ -61,7 +61,7 @@ st.subheader("Experience & Qualifications")
 st.write("---")
 st.write(""" 
 - ✅ 14 years management & leadership experience in the financial services industry & property development and management
-- ✅ Experienced auditor in various industries including manufacturing, governmnet bodies, airline and insurance
+- ✅ Experienced auditor in various industries including manufacturing, government bodies, airline and insurance
 - ✅ Excellent in time management, report writing, trend analysis, investigating, research, team management & project management
 - ✅ Qualified Accountant and member of Association of Chartered Certified Accountants (ACCA)
 - ✅ Bachelor of Commerce, Honours, in Accounting
