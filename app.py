@@ -4,10 +4,14 @@ import streamlit as st
 from PIL import Image
 
 #---PATH SETTINGS---
-current_dir = Path("C:/Users/User/Desktop/digital_cv") #Path(__file__).parent if "__file__" in locals() else Path.cwd()
-css_file="C:/Users/User/Desktop/digital_cv/styles/main.css" #r"C:\Users\User\Desktop\digital_cv\styles\main.css"
-resume_file = "C:/Users/User/Desktop/digital_cv/assets/CV - Anisa Mahomed Yusuf.pdf"#r"C:\Users\User\Desktop\digital_cv\assets\CV - Anisa Mahomed Yusuf.pdf"
-profile_pic = "C:/Users/User/Desktop/digital_cv/assets/profile-pic (1).png"#r"C:\Users\User\Desktop\digital_cv\assets\profile-pic (1).png"
+current_dir = Path(__file__).resolve().parent
+css_file = current_dir / "styles" / "main.css"
+resume_file = current_dir / "assets" / "CV - Anisa Mahomed Yusuf.pdf"
+profile_pic = current_dir / "assets" / "profile-pic (1).png"
+#current_dir = Path("C:/Users/User/Desktop/digital_cv") #Path(__file__).parent if "__file__" in locals() else Path.cwd()
+#css_file="C:/Users/User/Desktop/digital_cv/styles/main.css" #r"C:\Users\User\Desktop\digital_cv\styles\main.css"
+#resume_file = "C:/Users/User/Desktop/digital_cv/assets/CV - Anisa Mahomed Yusuf.pdf"#r"C:\Users\User\Desktop\digital_cv\assets\CV - Anisa Mahomed Yusuf.pdf"
+#profile_pic = "C:/Users/User/Desktop/digital_cv/assets/profile-pic (1).png"#r"C:\Users\User\Desktop\digital_cv\assets\profile-pic (1).png"
 #linkedin_image =r"C:\Users\User\Desktop\digital_cv\assets\linkedin.png"
 #toml_file = r"C:\Users\User\Desktop\digital_cv\.streamlit\config.toml"
 
