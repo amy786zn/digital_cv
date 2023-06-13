@@ -4,12 +4,12 @@ import streamlit as st
 from PIL import Image
 
 #---PATH SETTINGS---
-current_dir = Path(_file_).parent if "_file_" in locals() else Path.cwd()
-css_file=r"C:\Users\User\Desktop\digital_cv\styles\main.css"
-resume_file = r"C:\Users\User\Desktop\digital_cv\assets\CV - Anisa Mahomed Yusuf.pdf"
-profile_pic = r"C:\Users\User\Desktop\digital_cv\assets\profile-pic (1).png"
-linkedin_image =r"C:\Users\User\Desktop\digital_cv\assets\linkedin.png"
-toml_file = r"C:\Users\User\Desktop\digital_cv\.streamlit\config.toml"
+current_dir = Path("C:/Users/User/Desktop/digital_cv") #Path(__file__).parent if "__file__" in locals() else Path.cwd()
+css_file="C:/Users/User/Desktop/digital_cv/styles/main.css" #r"C:\Users\User\Desktop\digital_cv\styles\main.css"
+resume_file = "C:/Users/User/Desktop/digital_cv/assets/CV - Anisa Mahomed Yusuf.pdf"#r"C:\Users\User\Desktop\digital_cv\assets\CV - Anisa Mahomed Yusuf.pdf"
+profile_pic = "C:/Users/User/Desktop/digital_cv/assets/profile-pic (1).png"#r"C:\Users\User\Desktop\digital_cv\assets\profile-pic (1).png"
+#linkedin_image =r"C:\Users\User\Desktop\digital_cv\assets\linkedin.png"
+#toml_file = r"C:\Users\User\Desktop\digital_cv\.streamlit\config.toml"
 
 #---GENERAL SETTINGS---
 title = "Digital CV | Anisa Mahomed Yusuf" "ZA"
@@ -34,7 +34,7 @@ with open(resume_file, "rb") as pdf_file:
     PDFbyte=pdf_file.read()
 
 profile_pic=Image.open(profile_pic)
-linkedin_image=Image.open(linkedin_image)
+#linkedin_image=Image.open(linkedin_image)
 
 
 #---HERO SECTION ---
