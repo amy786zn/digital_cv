@@ -2,12 +2,17 @@ from pathlib import Path
 
 import streamlit as st
 from PIL import Image
+import os
 
 #---PATH SETTINGS---
-current_dir = Path(__file__).resolve().parent
-css_file = current_dir / "styles" / "main.css"
-resume_file = current_dir / "assets" / "CV - Anisa Mahomed Yusuf.pdf"
-profile_pic = current_dir / "assets" / "profile-pic (1).png"
+current_dir = os.path.dirname(os.path.abspath(__file__))
+css_file = os.path.join(current_dir, "styles", "main.css")
+resume_file = os.path.join(current_dir, "assets", "CV - Anisa Mahomed Yusuf.pdf")
+profile_pic = os.path.join(current_dir, "assets", "profile-pic (1).png")
+# current_dir = Path(__file__).resolve().parent
+# css_file = current_dir / "styles" / "main.css"
+# resume_file = current_dir / "assets" / "CV - Anisa Mahomed Yusuf.pdf"
+# profile_pic = current_dir / "assets" / "profile-pic (1).png"
 #current_dir = Path("C:/Users/User/Desktop/digital_cv") #Path(__file__).parent if "__file__" in locals() else Path.cwd()
 #css_file="C:/Users/User/Desktop/digital_cv/styles/main.css" #r"C:\Users\User\Desktop\digital_cv\styles\main.css"
 #resume_file = "C:/Users/User/Desktop/digital_cv/assets/CV - Anisa Mahomed Yusuf.pdf"#r"C:\Users\User\Desktop\digital_cv\assets\CV - Anisa Mahomed Yusuf.pdf"
