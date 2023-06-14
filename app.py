@@ -114,20 +114,30 @@ st.write("#")
 st.subheader("Work History")
 st.write("---")
 
-st.write("**Client Services Lead | IQVIA**")
-st.write("06/2023 - Present")
+st.write("""
+- 🏢**Client Services Lead | IQVIA** - 06/2023 - Present
+- 🏢**Manager - Finance Operatons | SA Home Loans Pty Ltd** - 04/2009 - 05/2023
+- 🏢**Finance Manager | CityZone Properties** - 04/2008 - 01/2009
+- 🏢**Financial Accountant | First Rand Bank Limited** - 12/2007 - 02/2008
+- 🏢**Audit Clerk/Supervisor | Nkonki Incorporated** - 01/2004 - 06/2007
 
-st.write("**Manager - Finance Operatons | SA Home Loans Pty Ltd**")
-st.write("04/2009 - 05/2023")
+"""
+)
 
-st.write("**Finance Manager | CityZone Properties**")
-st.write("04/2008 - 01/2009")
+# st.write("**Client Services Lead | IQVIA**")
+# st.write("06/2023 - Present")
 
-st.write("**Financial Accountant | First Rand Bank Limited**")
-st.write("12/2007 - 02/2008")
+# st.write("**Manager - Finance Operatons | SA Home Loans Pty Ltd**")
+# st.write("04/2009 - 05/2023")
 
-st.write("**Audit Clerk/Supervisor | Nkonki Incorporated**")
-st.write("01/2004 - 06/2007")
+# st.write("**Finance Manager | CityZone Properties**")
+# st.write("04/2008 - 01/2009")
+
+# st.write("**Financial Accountant | First Rand Bank Limited**")
+# st.write("12/2007 - 02/2008")
+
+# st.write("**Audit Clerk/Supervisor | Nkonki Incorporated**")
+# st.write("01/2004 - 06/2007")
 
 # --- ACCOMPLISHMENTS AND AWARDS ---
 st.write("#")
