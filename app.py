@@ -25,7 +25,7 @@ title = "Digital CV | Anisa Mahomed Yusuf" "ZA"
 icon = "🙌"
 Name= "Anisa Mahomed Yusuf"
 Description="""
-A South African Qualified Chartered Accountant with management and technology experience
+A South African Chartered Certified Accountant with the Association of Chartered Certified Accountants (ACCA) with management and technology experience
 """
 email= "anisamahomed@ymail.com"
 social_media = "LinkedIn : https://za.linkedin.com/in/anisa-mahomed-yusuf-acca"
